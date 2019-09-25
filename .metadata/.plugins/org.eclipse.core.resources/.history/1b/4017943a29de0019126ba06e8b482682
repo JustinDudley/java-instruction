@@ -1,0 +1,13 @@
+
+public class HelloWorldApp {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World!!");
+		
+		int a = 5;
+		double b = 5.5;
+		System.out.println("Total it" + (a + b));
+
+	}
+
+}

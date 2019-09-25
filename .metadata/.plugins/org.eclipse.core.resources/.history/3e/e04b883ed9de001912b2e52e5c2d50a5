@@ -1,0 +1,43 @@
+package ch05_class_demos;
+
+import java.util.Scanner;
+
+public class MethodsApp {
+
+	public static void main(String[] args) {
+		System.out.println("Hello!");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter #: ");
+		int n1 = sc.nextInt();
+		System.out.println("Enter another #: ");
+		int n2 = sc.nextInt();
+		
+		int sum = sumIt(n1, n2);
+		System.out.println("Sum = " + sum);
+		
+		
+			
+		sc.close();
+		System.out.println("Byte!");
+
+	}
+	
+	//overload
+	private static int sumIt(int a, int b, int c, int d) {
+		return a + b + c + d;
+	}
+	
+	//overload
+	private static int sumIt(int a, int b, int c) {
+		return a + b + c;
+	}
+	
+	//overload
+	private static int sumIt(int a, int b) {
+		return a + b;
+	}
+	
+
+}

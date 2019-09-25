@@ -1,0 +1,29 @@
+
+public class HelloWorldApp {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World!!");
+		
+		int a = 5;
+		double b = 5.5;
+		System.out.println("Total is " + (a + b));
+		
+		String name = "Sean";
+		name = name + " N ";
+		name += "Blessing";
+		System.out.println(name);
+		
+		//StringBuilder example
+		StringBuilder sb = new StringBuilder("Tricia");
+		sb.append(" M ");
+		sb.append("Good");
+		System.out.println(sb);
+		
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,34 @@
+package ch05_class_demos;
+
+import java.util.Scanner;
+
+public class DataValidation {
+	
+	public static double getAcceptableDouble(Scanner sc, String prompt) {
+		System.out.println(prompt);
+		double length = sc.nextDouble();
+	}
+	
+
+	public static void main(String[] args) {
+		System.out.println("Hi!");
+		System.out.println("Welcome to the Area and Perimeter Calculator");
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter a length: ");
+		double length = sc.nextDouble();
+		
+		double length = getAcceptableDouble(sc, "Enter a length: ");
+		
+		
+		
+		
+		sc.close();
+		System.out.println("Byte!");
+		
+		
+		
+
+	}
+
+}
